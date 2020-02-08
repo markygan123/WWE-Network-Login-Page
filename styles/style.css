@@ -1,0 +1,147 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#container {
+	font-size: 0;	
+}
+
+.column {
+	display: inline-block;
+	height: 100vh;
+	width: 50%;
+	margin: 0;
+	text-align: center;
+	color: white;
+	overflow: auto;
+}
+
+#left {
+	background: black;
+	font-size: 20px;
+}
+
+#right {
+	background: #1a1a1a;
+	text-align: left;
+}
+
+img {
+	position: absolute;
+	width: 100px;
+	height: 95px;
+	left: 93px;
+	top: 80px;
+}
+
+#left h2 {
+	line-height: 400px;
+	font-size: 26px;
+}
+
+#left .signin-form {
+	margin-top: -160px;
+	margin-left: 96px;
+	text-align: left;
+	font-size: 13px;
+}
+
+.signin-form label {
+	display: block;
+	padding: 3px;
+}
+
+input[type=text] {
+	display: block;
+	outline: 0;
+	border: none;
+	border-bottom: 3px solid #9b9b9b;
+	width: 390px;
+	background: transparent;
+	padding: 10px 0;
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#remember, #sign-in {
+	display: inline-block;
+	padding: 5px;
+	margin: 30px auto;
+}
+
+input[type=checkbox] {
+	-moz-appearance: none;
+	appearance: none;
+	width: 23px;
+	height: 23px;
+	border-radius: 4px;
+	background-color: dimgray;
+	margin: none;
+}
+
+
+#remember {
+	font-size: 15px;
+	color: gray;
+	padding: 5px;
+}
+
+#sign-in {
+	width: 135px;
+	margin-left: 96px;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: #d11f13;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#sign-in:hover {
+	background-color: #cf4242;
+}
+
+a[href="#"] {
+	font-size: 15px;
+	color: white;
+	margin-left: 4px;
+}
+
+#right > h2, p, #start {
+	margin-left: 120px;
+}
+
+#right h2 {
+	line-height: 410px;
+	font-size: 27px;
+}
+
+#right p {
+	margin-top: -170px;
+	/*margin-left: 148px;*/
+	margin-right: 110px;
+	text-align: left;
+	font-size: 17px;
+	line-height: 1.4;
+}
+
+#start {
+	margin-top: 20px;
+	padding: 22px;
+	border: none;
+	border-radius: 6px;
+	height: 60px;
+	background: white;
+	font-size: 17px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+#start:hover {
+	color: dimgray;
+}
