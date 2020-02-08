@@ -15,7 +15,7 @@
 	margin: 0;
 	text-align: center;
 	color: white;
-	overflow: auto;
+	overflow: hidden;
 }
 
 #left {
