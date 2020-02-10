@@ -77,7 +77,6 @@ input[type=text] {
 
 input[type=checkbox] {
 	-moz-appearance: none;
-	appearance: none;
 	width: 23px;
 	height: 23px;
 	border-radius: 4px;
