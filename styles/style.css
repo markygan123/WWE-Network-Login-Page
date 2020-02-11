@@ -53,6 +53,10 @@ img {
 	padding: 3px;
 }
 
+.signin-form {
+	position: relative;
+}
+
 input[type=text] {
 	display: block;
 	outline: 0;
@@ -76,6 +80,9 @@ input[type=text] {
 }
 
 input[type=checkbox] {
+	position: absolute;
+	left: 1px;
+	bottom: 63px;
 	-moz-appearance: none;
 	width: 23px;
 	height: 23px;
@@ -85,6 +92,7 @@ input[type=checkbox] {
 
 
 #remember {
+	margin-left: 15px;
 	font-size: 15px;
 	color: gray;
 	padding: 5px;
@@ -92,7 +100,7 @@ input[type=checkbox] {
 
 #sign-in {
 	width: 135px;
-	margin-left: 96px;
+	margin-left: 110px;
 	padding: 15px;
 	border: none;
 	border-radius: 5px;
