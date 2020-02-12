@@ -117,8 +117,12 @@ input[type=checkbox] {
 
 .forgot-pass {
 	font-size: 15px;
-	color: white;
+	color: #666666;
 	margin-left: 4px;
+}
+
+.forgot-pass:hover {
+	/*color: #fff;*/
 }
 
 #right > h2, p, #start {
