@@ -122,7 +122,7 @@ input[type=checkbox] {
 }
 
 .forgot-pass:hover {
-	/*color: #fff;*/
+	color: #fff;
 }
 
 #right > h2, p, #start {
