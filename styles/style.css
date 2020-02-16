@@ -1,11 +1,10 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
 body {
-	
+	font-family: Tahoma, Verdana, Segoe, sans-serif;	
 }
 
 #container {
